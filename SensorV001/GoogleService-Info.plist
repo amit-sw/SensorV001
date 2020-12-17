@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BUNDLE_ID</key>
-	<string>world.aiclub.SensorV001</string>
 	<key>PROJECT_ID</key>
 	<string>sensorv001</string>
 	<key>STORAGE_BUCKET</key>
