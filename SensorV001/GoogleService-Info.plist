@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>1053997843351-qqloj16fsgvo5khpd1v7svs9ik899iah.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1053997843351-qqloj16fsgvo5khpd1v7svs9ik899iah</string>
-	<key>API_KEY</key>
-	<string>AIzaSyBbzId7I5VusGwG8MGdgJTzikxvN9R-E4E</string>
-	<key>GCM_SENDER_ID</key>
-	<string>1053997843351</string>
-	<key>PLIST_VERSION</key>
-	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>world.aiclub.SensorV001</string>
 	<key>PROJECT_ID</key>
@@ -19,16 +9,14 @@
 	<key>STORAGE_BUCKET</key>
 	<string>sensorv001.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:1053997843351:ios:73de8904d220c2c4017ad2</string>
+	<true/>
 </dict>
 </plist>
