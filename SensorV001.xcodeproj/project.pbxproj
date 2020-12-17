@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		AA697DE0257F46EC00F76AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA697DDE257F46EC00F76AEF /* Main.storyboard */; };
 		AA697DE2257F46F700F76AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA697DE1257F46F700F76AEF /* Assets.xcassets */; };
 		AA697DE5257F46F700F76AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA697DE3257F46F700F76AEF /* LaunchScreen.storyboard */; };
+		AA697DFF257F498A00F76AEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA697DFE257F498A00F76AEF /* GoogleService-Info.plist */; };
+		AA697E02258053F700F76AEF /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697E01258053F700F76AEF /* SpeechViewController.swift */; };
+		AA697E052580933200F76AEF /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697E042580933200F76AEF /* GoogleSheetsIntegration.swift */; };
+		AA982A4D25846CE200B0BDAB /* Aranet4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA982A4C25846CE200B0BDAB /* Aranet4ViewController.swift */; };
+		AA982A5025846D7900B0BDAB /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA982A4F25846D7900B0BDAB /* LocationViewController.swift */; };
+		E136B3B0C0F6B5122585ED07 /* Pods_SensorV001.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB107CBFB38C62B50DF21158 /* Pods_SensorV001.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		AA697DE1257F46F700F76AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA697DE4257F46F700F76AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA697DE6257F46F700F76AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA697DFE257F498A00F76AEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA697E01258053F700F76AEF /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		AA697E042580933200F76AEF /* GoogleSheetsIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsIntegration.swift; sourceTree = "<group>"; };
+		AA982A4C25846CE200B0BDAB /* Aranet4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranet4ViewController.swift; sourceTree = "<group>"; };
+		AA982A4F25846D7900B0BDAB /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		ACADC0BEBC1BEF9C03A39E53 /* Pods-SensorV001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensorV001.debug.xcconfig"; path = "Target Support Files/Pods-SensorV001/Pods-SensorV001.debug.xcconfig"; sourceTree = "<group>"; };
+		B22957370AB4057AAFC0EFE5 /* Pods-SensorV001.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensorV001.release.xcconfig"; path = "Target Support Files/Pods-SensorV001/Pods-SensorV001.release.xcconfig"; sourceTree = "<group>"; };
+		BB107CBFB38C62B50DF21158 /* Pods_SensorV001.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SensorV001.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E136B3B0C0F6B5122585ED07 /* Pods_SensorV001.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FA47A675CC0F1977E32C6E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB107CBFB38C62B50DF21158 /* Pods_SensorV001.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C01E73485E2B4E49A3EB049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACADC0BEBC1BEF9C03A39E53 /* Pods-SensorV001.debug.xcconfig */,
+				B22957370AB4057AAFC0EFE5 /* Pods-SensorV001.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AA697DCC257F46EC00F76AEF = {
 			isa = PBXGroup;
 			children = (
 				AA697DD7257F46EC00F76AEF /* SensorV001 */,
 				AA697DD6257F46EC00F76AEF /* Products */,
+				8C01E73485E2B4E49A3EB049 /* Pods */,
+				2FA47A675CC0F1977E32C6E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +94,13 @@
 				AA697DDA257F46EC00F76AEF /* SceneDelegate.swift */,
 				AA697DDC257F46EC00F76AEF /* ViewController.swift */,
 				AA697DDE257F46EC00F76AEF /* Main.storyboard */,
+				AA697E01258053F700F76AEF /* SpeechViewController.swift */,
+				AA697E042580933200F76AEF /* GoogleSheetsIntegration.swift */,
+				AA982A4C25846CE200B0BDAB /* Aranet4ViewController.swift */,
+				AA982A4F25846D7900B0BDAB /* LocationViewController.swift */,
 				AA697DE1257F46F700F76AEF /* Assets.xcassets */,
 				AA697DE3257F46F700F76AEF /* LaunchScreen.storyboard */,
+				AA697DFE257F498A00F76AEF /* GoogleService-Info.plist */,
 				AA697DE6257F46F700F76AEF /* Info.plist */,
 			);
 			path = SensorV001;
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA697DE9257F46F700F76AEF /* Build configuration list for PBXNativeTarget "SensorV001" */;
 			buildPhases = (
+				1363E2013C2FEB311E82E7BB /* [CP] Check Pods Manifest.lock */,
 				AA697DD1257F46EC00F76AEF /* Sources */,
 				AA697DD2257F46EC00F76AEF /* Frameworks */,
 				AA697DD3257F46EC00F76AEF /* Resources */,
+				B6C96CCCBA2FFD146B7CF9B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA697DE5257F46F700F76AEF /* LaunchScreen.storyboard in Resources */,
+				AA697DFF257F498A00F76AEF /* GoogleService-Info.plist in Resources */,
 				AA697DE2257F46F700F76AEF /* Assets.xcassets in Resources */,
 				AA697DE0257F46EC00F76AEF /* Main.storyboard in Resources */,
 			);
@@ -132,12 +174,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1363E2013C2FEB311E82E7BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SensorV001-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C96CCCBA2FFD146B7CF9B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SensorV001/Pods-SensorV001-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SensorV001/Pods-SensorV001-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SensorV001/Pods-SensorV001-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA697DD1257F46EC00F76AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA697E02258053F700F76AEF /* SpeechViewController.swift in Sources */,
 				AA697DDD257F46EC00F76AEF /* ViewController.swift in Sources */,
+				AA982A4D25846CE200B0BDAB /* Aranet4ViewController.swift in Sources */,
+				AA982A5025846D7900B0BDAB /* LocationViewController.swift in Sources */,
+				AA697E052580933200F76AEF /* GoogleSheetsIntegration.swift in Sources */,
 				AA697DD9257F46EC00F76AEF /* AppDelegate.swift in Sources */,
 				AA697DDB257F46EC00F76AEF /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +371,7 @@
 		};
 		AA697DEA257F46F700F76AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACADC0BEBC1BEF9C03A39E53 /* Pods-SensorV001.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +391,7 @@
 		};
 		AA697DEB257F46F700F76AEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22957370AB4057AAFC0EFE5 /* Pods-SensorV001.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
